@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Montserrat", sans-serif;
+}
+header h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px;
+    margin-top: -10px;
+}
+header {
+    background-color: #ABBB7C;
+    margin: 0px -6px 0px -6px;
+}
+.circles {
+    width: 100%;
+    height: 100%;
+}
+main a {
+    background-color: #9DB84E;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 46%;
+    text-decoration: none;
+}
+main {
+    background-image: url('Group 1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1930px;
+}
+.pastry {
+    margin-top: 50px;
+    border-radius: 30px;
+    border: 5px solid #E4FAA5;
+    width: 887px;
+    height: 1570px;
+    margin-left: 15%;
+    background-color: white;
+    margin-bottom: -300px;
+}
+.one, .two, .three, .four {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    width: 330px;
+    height: 330px;
+    padding-left: 5%;
+    cursor: pointer;
+}
+.croissant, .cinnabons, .napoleon, .brownie {
+    margin-right: 140px;
+    cursor: pointer;
+}
+
+.square1 {
+    top: 228px;
+    left: 255px;
+    position: absolute;
+    width: 330px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    z-index: 1;
+    transition: left 0.3s ease;
+    right: 0;
+    cursor: pointer;
+}
+.square9 {
+    top: 228px;
+    left: 255px;
+    position: absolute;
+    width: 330px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    z-index: 1;
+    transition: left 0.3s ease;
+    left: 255px;
+    cursor: pointer;
+}
+.square2 {
+    top: 228px;
+    left: 726px;
+    position: absolute;
+    width: 310px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    z-index: 1;
+    transition: left 0.3s ease;
+    cursor: pointer;
+    opacity: 1;
+}
+.square10 {
+    top: 228px;
+    left: 726px;
+    position: absolute;
+    width: 310px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    z-index: 1;
+    transition: left 0.3s ease;
+    cursor: pointer;
+    opacity: 1;
+}
+.square3 {
+    top: 619px;
+    left: 255px;
+    position: absolute;
+    width: 330px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    transition: left 0.3s ease;
+    cursor: pointer;
+    z-index: 1;
+}
+.square11 {
+    top: 619px;
+    left: 255px;
+    position: absolute;
+    width: 330px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    transition: left 0.3s ease;
+    cursor: pointer;
+    z-index: 2;
+}
+.square4 {
+    top: 619px;
+    left: 726px;
+    position: absolute;
+    width: 330px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    transition: left 0.3s ease;
+    cursor: pointer;
+    z-index: 1;
+}
+.square12 {
+    top: 619px;
+    left: 726px;
+    position: absolute;
+    width: 330px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    transition: left 0.3s ease;
+    cursor: pointer;
+    z-index: 2;
+}
+.square5 {
+    top: 1008px;
+    left: 255.5px;
+    position: absolute;
+    width: 330px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    transition: left 0.3s ease;
+    cursor: pointer;
+    z-index: 1;
+}
+.square13 {
+    top: 1008px;
+    left: 255.5px;
+    position: absolute;
+    width: 330px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    transition: left 0.3s ease;
+    cursor: pointer;
+    z-index: 2;
+}
+.square6 {
+    top: 1008px;
+    left: 726px;
+    position: absolute;
+    width: 330px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    transition: left 0.3s ease;
+    cursor: pointer;
+    z-index: 1;
+}
+.square14 {
+    top: 1008px;
+    left: 726px;
+    position: absolute;
+    width: 330px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    transition: left 0.3s ease;
+    cursor: pointer;
+    z-index: 2;
+}
+.square7 {
+    top: 1398px;
+    left: 255.5px;
+    position: absolute;
+    width: 330px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    transition: left 0.3s ease;
+    cursor: pointer;
+    z-index: 1;
+}
+.square15 {
+    top: 1398px;
+    left: 255.5px;
+    position: absolute;
+    width: 330px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    transition: left 0.3s ease;
+    cursor: pointer;
+    z-index: 2;
+}
+.square8 {
+    top: 1398px;
+    left: 726px;
+    position: absolute;
+    width: 330px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    transition: left 0.3s ease;
+    cursor: pointer;
+    z-index: 1;
+}
+.square16 {
+    top: 1398px;
+    left: 726px;
+    position: absolute;
+    width: 330px; 
+    height: 330px;
+    background-color: #ABBB7C; 
+    border-radius: 20px;
+    transition: left 0.3s ease;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.croissant, .cinnabons, .napoleon, .brownie, .bread, .pizza, .hotdog, .khachapuri {
+    opacity: 1;
+    z-index: 3;
+    transition: opacity 0.5s ease;
+}
+
+.square9 ul, .square1 ul, .square11 ul, .square3 ul, .square13 ul, .square5 ul, .square15 ul, .square7 ul {
+    margin-left: 3px;
+    width: 200px;
+    height: 250px;
+    overflow-y: auto;
+    display: block;
+}
+.square10 ul, .square2 ul {
+    width: 250px;
+    height: 250px;
+    margin-left: 7px;
+}
+.square12 ul, .square4 ul, .square14 ul, .square6 ul, .square16 ul, .square8 ul {
+    margin-left: 5px;
+    width: 250px;
+    height: 250px;
+    overflow-y: auto;
+    display: block;
+}
+.square10 h2, .square2 h2, .square12 h2 {
+    margin-left: 26px;
+}
+.square4 h2, .square14 h2, .square6 h2, .square16 h2, .square8 h2 {
+    margin-left: 35px;
+}
+.square9 h2, .square1 h2, .square11 h2, .square3 h2, .square13 h2, .square5 h2, .square15 h2, .square7 h2 {
+    margin-left: 5px;
+}
