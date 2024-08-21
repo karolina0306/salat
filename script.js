@@ -194,7 +194,7 @@ const square3 = document.querySelector('.square3');
       console.log('Square moved to:', square.style.left);
     });
 
-    document.querySelector('.bread').addEventListener('click', function() {
+    document.querySelector('.Salad with seafood').addEventListener('click', function() {
       if (isMoved) {
         square2.style.left = '1020px'; 
       } else {
@@ -211,7 +211,7 @@ const square3 = document.querySelector('.square3');
       console.log('Square moved to:', square2.style.left);
     });
 
-    document.querySelector('.croissant').addEventListener('click', function() {
+    document.querySelector('.Salad with fish').addEventListener('click', function() {
       if (isMoved) {
         square3.style.left = '0px'; 
       } else {
@@ -228,7 +228,7 @@ const square3 = document.querySelector('.square3');
       console.log('Square moved to:', square3.style.left);
     });
 
-    document.querySelector('.pizza').addEventListener('click', function() {
+    document.querySelector('.Meat salad').addEventListener('click', function() {
       if (isMoved) {
         square4.style.left = '1020px'; 
       } else {
