@@ -177,7 +177,7 @@ const square3 = document.querySelector('.square3');
                       isMoved = !isMoved; 
                     });
   
-    document.querySelector('.cinnabons').addEventListener('click', function() {
+    document.querySelector('.Vegetarian salad').addEventListener('click', function() {
       if (isMoved) {
         square.style.left = '0px'; 
       } else {
